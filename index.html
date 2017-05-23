@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie html</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="myForm" method="post" action="https://formspree.io/">
+        <fieldset class="first">
+            <lable for="firstname">Imie: </lable>
+            <input type="text" id="firstname" placeholder="podaj imie"><br/>
+            <lable for="lastname">Nazwisko: </lable>
+            <input type="text" id="nazwisko" placeholder="podaj nazwisko"><br/>
+            <lable for="email">Email: </lable>
+            <input type="email" id="email" placeholder="podaj aderss email"><br/>
+            <lable for="telefon">Telefon: </lable>
+            <input type="text" id="tel" placeholder="podaj swoj telefon"><br/>
+        </fieldset>
+        <fieldset class="first">
+        <h3>Prosze wybierz miejsce zamieszkania: </h3>
+        <select name="miasto" id="miasto">
+           <option value="disabled">--Wybierz Miasto--</option>
+            <option value="Krakow">Krakow</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdansk">Gdansk</option>
+        </select>
+        <br/>
+           <hr>
+            <lable for="plec">Zaznacz plec: </lable>
+            <input type="radio" id="female" value="kobieta">Kobieta
+            <input type="radio" id="male" value="mezczyzna">Mezczyzna
+        </fieldset>
+        <fieldset class="first">
+            <input type="checkbox" id="zgoda" required><strong>Wyrazam zgode na:</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum error iste, consequuntur, nemo necessitatibus atque magni incidunt a eaque, nam quod. Magni, fugit illum. Rem tenetur laboriosam quibusdam, consequuntur amet.<br/>
+            <textarea id="message" rows="4" cols="40" maxlength="200"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

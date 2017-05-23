@@ -1,0 +1,43 @@
+body {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #484747;
+    color: white;
+}
+
+#tytul {
+    margin: 0 auto;
+    margin: 20px 20px 0 20px;
+    padding-top: 40px;
+}
+
+#myForm {
+    padding: 10px;
+}
+
+#miasto {
+    margin-bottom: 10px;
+}
+
+#message {
+    margin: 15px;
+}
+
+.first {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input {
+  margin: 10px;  
+}
+
+lable {
+    font-weight: 600;
+}
+
+.first {
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
