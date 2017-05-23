@@ -5,9 +5,24 @@ body {
     color: white;
 }
 
+input[type = "submit"] {
+    float: right;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+input {
+    margin: 10px;  
+}
+
+lable {
+    font-weight: 600;
+}
+
 #tytul {
+    max-width: 850px;
     margin: 0 auto;
-    margin: 20px 20px 0 20px;
+    padding: 10px;
     padding-top: 40px;
 }
 
@@ -24,20 +39,18 @@ body {
 }
 
 .first {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-input {
-  margin: 10px;  
-}
-
-lable {
-    font-weight: 600;
-}
-
-.first {
-    padding-top: 20px;
+    padding-top: 20px 40px 0 40px;
     margin-top: 10px;
 }
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
